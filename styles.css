@@ -1,9 +1,9 @@
 /* ===== ZENITH DESIGN SYSTEM ===== */
 
 header.scrolled {
-    background: rgba(240, 239, 235, 0.9);
+    background: rgba(17, 24, 39, 0.92);
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid #E5E7EB;
+    border-bottom: 1px solid #374151;
 }
 
 @keyframes slideDown {
@@ -30,6 +30,13 @@ header.scrolled {
 .star-btn svg {
     width: 24px;
     height: 24px;
+}
+
+.lucide {
+  width: 24px;
+  height: 24px;
+  stroke: #3b82f6;
+  stroke-width: 2;
 }
 
 #toast.show {
